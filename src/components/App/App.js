@@ -2,8 +2,8 @@ import { useReducer } from 'react';
 import Form from '../Form/Form';
 import List from '../List/List';
 import './App.css';
-import PokeReducer from '../reducer/pokeReducer.jsx';
-import PokemonContext from '../context/PokemonContex.jsx';
+import PokeReducer from '../reducer/pokeReducer';
+import PokemonContext from '../context/PokemonContex';
 
 function App() {
   ///new
